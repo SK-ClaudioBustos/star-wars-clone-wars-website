@@ -1,0 +1,30 @@
+/* Fuente */
+@font-face {
+    font-family: 'Kanit';
+    src: url("../fonts/kanit.ttf");
+}
+
+footer {
+    font-family: 'Kanit',cursive;
+    background-color: #000;
+    height: 100px;
+    border-top: 1px solid #c1c2c3;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: .9rem;
+    color: #fff;
+    font-size: 12px;
+}
+
+footer p a {
+    text-decoration: none;
+    color:  rgb(179, 17, 17);
+}
+
+footer p a:hover,
+footer p a i:hover {
+    color: rgb(227, 80, 80);
+}
+

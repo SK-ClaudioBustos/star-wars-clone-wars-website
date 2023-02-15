@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Kanit";
+    src: url(../fonts/kanit.ttf);
+}
+
+.card-content{
+    width: 18rem; 
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transition: all .1s ease-out;
+}
+
+.card-content:hover {
+    box-shadow: 1px -2px 11px 5px #c1c2c3;
+    -webkit-box-shadow: 1px -2px 11px 5px #c1c2c3;
+    -moz-box-shadow: 1px -2px 11px 5px #c1c2c3;
+}
+
+.card-image {
+    border-bottom: 1px solid #c1c2c3;
+}
+
+.card-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #edc617;
+}
+
+.card-text {
+    font-size: 15px;
+    font-family: "Kanit";
+} 
+
+@media screen and (max-width: 768px) {
+    .card-text {
+        font-size: 12px;
+    }
+}

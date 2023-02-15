@@ -1,0 +1,19 @@
+/* Navbar */
+.nav-bar{
+    border-bottom: 1px solid #c1c2c3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,sans-serif;
+    font-size: 20px;
+}
+
+.navbar-dark {
+    background-color: #000;
+}
+
+.navigation-icon {
+    height: 40px;
+    width: 40px;
+}
+
+.navigation-icon:hover {
+    filter: brightness(0.2);
+}
