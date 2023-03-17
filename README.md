@@ -4,7 +4,13 @@ This is my first proyect , the goal its show my knowledge in frontend, this webs
 
 ## :space_invader: Set Up:
 1. When you have clone the repository or download it, run the next command for dependencies
-`npm ci`
+
+```npm
+npm ci
+```
 
 2. Star development server
-`npm start`
+
+````npm
+npm start
+```
