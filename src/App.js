@@ -5,18 +5,19 @@ import "./css/App.css";
 // Components
 import NavigationBar from "./components/NavigationBar";
 import WelcomeBanner from "./components/WelcomeBanner";
-import SectionDivisor from "./components/SectionDivisor.jsx";
+import SectionDivisor from "./components/SectionDivisor";
 import SectionContent from "./components/SectionContent";
-import CardContainer from "./components/CardContainer.jsx";
-import GalleryContent from "./components/GalleryContent.jsx";
+import CardContainer from "./components/CardContainer";
+import GalleryContent from "./components/GalleryContent";
 import Foot from "./components/Foot";
-
+import UpButton from "./components/UpButton";
 
 /*agrege el atributo index ya que los elementos del arreglo no poseen un id, esto es recomendado por React*/
 function App() {
   return (
     <div className="App">
         <NavigationBar/>
+        <UpButton/>
         <WelcomeBanner/>
         <SectionDivisor 
           id="seccion1"

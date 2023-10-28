@@ -19,10 +19,14 @@
     border: 2px solid #2a2828;
 }
 
+.carousel-box {
+    opacity: 0.75;
+    background-color: #000;
+}
+
 .carousel-h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
-    -webkit-text-stroke: 1px black;
 }
 
 .carousel-p {

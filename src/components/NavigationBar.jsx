@@ -9,7 +9,7 @@ import logo from "../img/logo-navbar.svg";
 
 function NavigationBar() {
     return(
-        <Navbar className='nav-bar navbar-dark' expand="md">
+        <Navbar id="navbar-id" className='nav-bar navbar-dark' expand="md">
           <Container fluid>
             <Navbar.Toggle aria-controls="basic-navbar-nav">
             <i className="bi bi-text-center"></i>
