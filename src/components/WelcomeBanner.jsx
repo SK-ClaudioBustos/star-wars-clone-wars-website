@@ -1,6 +1,5 @@
-import React from "react";
-import "../css/WelcomeBanner.css";
 import logo from "../img/logo.svg";
+import "../css/WelcomeBanner.css";
 
 function WelcomeBanner(){
     return(

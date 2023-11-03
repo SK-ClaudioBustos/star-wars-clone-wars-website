@@ -1,8 +1,3 @@
-import React from "react";
-import c_data from "./character_data.jsx";
-// CSS
-import "./css/App.css";
-// Components
 import NavigationBar from "./components/NavigationBar";
 import WelcomeBanner from "./components/WelcomeBanner";
 import SectionDivisor from "./components/SectionDivisor";
@@ -11,13 +6,14 @@ import CardContainer from "./components/CardContainer";
 import GalleryContent from "./components/GalleryContent";
 import Foot from "./components/Foot";
 import UpButton from "./components/UpButton";
+import React from "react";
+import c_data from "./character_data.jsx";
+import "../src/css/App.css";
 
-/*agrege el atributo index ya que los elementos del arreglo no poseen un id, esto es recomendado por React*/
 function App() {
   return (
     <div className="App">
         <NavigationBar/>
-        <UpButton/>
         <WelcomeBanner/>
         <SectionDivisor 
           id="seccion1"
@@ -47,6 +43,7 @@ function App() {
         />
         <GalleryContent/>
         <Foot/>
+        <UpButton/>
     </div>
   );
 }
